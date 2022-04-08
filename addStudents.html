@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <mate charset="UTF-8">
+            <title>学生信息</title>
+    </head>
+    
+    <body>
+        <h2 align="middle">添加学生信息</h2>
+        <hr>
+        <div style="width:600px; height:573px; background:url(images/formBg.png) no-repeat; margin:0 auto; ">
+            <table width="600px">
+                <tr>
+                    <td align="right">学号：</td>
+                    <td>
+                        <input type="text" name="学号">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="right">性别：</td>
+                    <td>
+                        <input type="radio" name="性别" value="nan" checked> 男
+                        <input type="radio" name="性别" value="nv" checked> 女
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="right">姓名：</td>
+                    <td><input type="text" name="姓名"></td>
+                </tr>
+
+                <tr>
+                    <td align="right">电话号码：</td>
+                    <td><input type="text" name="电话号码"></td>
+                </tr>
+                <tr>
+                    <td align="right">出生日期：</td>
+                    <td><input type="date" name="datas"></td>
+                </tr>
+                <tr>
+                    <td align="right">所在院系：</td>
+                    <td>
+                        <select name="" id="">
+                            <option value="科技艺术学院">科技艺术学院</option>
+                            <option value="信息工程学院">信息工程学院</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">班级：</td>
+                    <td><select name="" id="">
+                        <option value="19计科一班">19计科一班</option>
+                        <option value="19计科二班">19计科二班</option>
+                        <option value="20计科一班">20计科一班</option>
+                        <option value="20计科二班">20计科二班</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td align="right">兴趣爱好：</td>
+                    <td>
+                        <input type="checkbox" name="兴趣" value="game" checked> 打篮球
+                        <input type="checkbox" name="兴趣" value="game" checked> 弹钢琴
+                        <input type="checkbox" name="兴趣" value="game" checked> 游泳
+                        <input type="checkbox" name="兴趣" value="game" checked> 编程
+                        <input type="checkbox" name="兴趣" value="game" checked> 玩游戏
+                        <input type="checkbox" name="兴趣" value="game" checked> 跳舞
+                        <input type="checkbox" name="兴趣" value="game" checked> 唱歌
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">个人照片：</td>
+                    <td><input type="file"></td>
+                </tr>
+                <form>
+                    <tr><td align="right">个人简介：</td>
+                        <td><textarea name="message" cols="30" rows="10"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td align="right"><input type="submit" value="添加"></td>
+                        <td align="left"><input type="reset" value="重置"></td>
+                    </tr>
+                </form>
+            </table>
+        </div>
+    </body>
+</html>
